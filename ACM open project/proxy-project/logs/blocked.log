@@ -1,0 +1,12 @@
+2026-01-08 22:33:03 - WARNING - BLOCKED: 192.168.1.1 -> google.com - Reason: blocked by method rule: TRACE
+2026-01-08 22:33:03 - WARNING - BLOCKED: 192.168.1.1 -> test.block.com - Reason: blocked by domain rule: test.block.com
+2026-01-08 22:33:03 - WARNING - RATE_LIMITED: 10.0.0.100 -> google.com
+2026-01-08 22:33:03 - WARNING - RATE_LIMITED: 10.0.0.100 -> google.com
+2026-01-08 22:33:03 - WARNING - RATE_LIMITED: 10.0.0.100 -> google.com
+2026-01-08 22:33:03 - WARNING - RATE_LIMITED: 10.0.0.100 -> google.com
+2026-01-08 22:33:03 - WARNING - RATE_LIMITED: 10.0.0.100 -> google.com
+2026-01-08 22:33:03 - WARNING - RATE_LIMITED: 10.0.0.100 -> google.com
+2026-01-08 22:33:03 - WARNING - RATE_LIMITED: 10.0.0.100 -> google.com
+2026-01-08 22:33:03 - WARNING - RATE_LIMITED: 10.0.0.100 -> google.com
+2026-01-08 22:33:03 - WARNING - RATE_LIMITED: 10.0.0.100 -> google.com
+2026-01-08 22:33:03 - WARNING - RATE_LIMITED: 10.0.0.100 -> google.com

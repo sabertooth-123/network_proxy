@@ -1,0 +1,41 @@
+{
+    "rate_limiting": {
+        "enabled": true,
+        "requests_per_minute": 60,
+        "window_seconds": 60
+    },
+    "bandwidth_monitoring": {
+        "enabled": true
+    },
+    "logging": {
+        "enabled": true,
+        "log_directory": "logs"
+    },
+    "default_action": "allow",
+    "rules": [
+        {
+            "rule_type": "domain",
+            "pattern": "*.malware.com",
+            "action": "block",
+            "priority": 10
+        },
+        {
+            "rule_type": "domain",
+            "pattern": "*.ads.example.com",
+            "action": "block",
+            "priority": 5
+        },
+        {
+            "rule_type": "ip",
+            "pattern": "192.168.1.100",
+            "action": "block",
+            "priority": 8
+        },
+        {
+            "rule_type": "method",
+            "pattern": "TRACE",
+            "action": "block",
+            "priority": 7
+        }
+    ]
+}
